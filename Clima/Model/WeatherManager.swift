@@ -66,6 +66,7 @@ struct WeatherManager {
             let weather = WeatherModel(temperature: temp, conditionId: id, cityName: name)
             
             // Test prints
+            // Remember to remove
             print(weather.temperatureString)
             print(weather.conditionName)
             
